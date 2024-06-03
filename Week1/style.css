@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+header,footer{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0px 10px 0px 10px;
+    padding: 6px;
+}
+
+.parent-section{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.aside-section{
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+
+.card{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
